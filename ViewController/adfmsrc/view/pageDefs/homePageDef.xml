@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.2.1.22.48"
+                id="homePageDef" Package="view.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="ViewObj1" RangeSize="25" DataControl="AppModuleDataControl"
+              id="ViewObj1Iterator"/>
+  </executables>
+  <bindings>
+    <attributeValues IterBinding="ViewObj1Iterator" id="Row1">
+      <AttrNames>
+        <Item Value="Row1"/>
+      </AttrNames>
+    </attributeValues>
+  </bindings>
+</pageDefinition>

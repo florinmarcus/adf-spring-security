@@ -1,0 +1,33 @@
+<References xmlns="http://xmlns.oracle.com/adf/jndi">
+  <Reference name="Insis" className="oracle.jdeveloper.db.adapter.DatabaseProvider"
+             credentialStoreKey="Insis" xmlns="">
+    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
+    <RefAddresses>
+      <StringRefAddr addrType="oraDriverType">
+        <Contents>thin</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="DeployPassword">
+        <Contents>true</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="hostname">
+        <Contents>10.3.4.56</Contents>
+      </StringRefAddr>
+      <SecureRefAddr addrType="password"/>
+      <StringRefAddr addrType="role">
+        <Contents>`</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="port">
+        <Contents>1521</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="subtype">
+        <Contents>oraJDBC</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="serviceName">
+        <Contents>INSISPDB</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="user">
+        <Contents>INSIS_GEN_V10_RLS</Contents>
+      </StringRefAddr>
+    </RefAddresses>
+  </Reference>
+</References>
